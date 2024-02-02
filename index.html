@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="abhi.css" rel="stylesheet">
+        <script>
+           
+            function f1()
+            {
+                var i,a,res;
+            a=document.getElementById("boxt").value;
+           var p=document.getElementById("rr");
+            for(i=1;i<=10;i++)
+            {
+               res=a*i;
+              p.innerHTML+=a+" * "+i+" = "+res+"<br>";
+
+            }
+        }
+        </script>
+    </head>
+
+    <body>
+        <div class="body">
+            <div class="box1"><img src="kk.png" style="height: 600px; width: 400px;"></div>
+            <div class="box2">
+                <div class="box3">
+        <input type="number" id="boxt">
+        <input onclick="f1()" type="button" id="but" value="click" placeholder="Enter">
+    <div class="print" id="rr"></div>
+<div id="cl"><a href="">CLEAR</a></div>
+</div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Design &Develop By Anubhav Pawan</p>
+    </div>
+    </body>
+</html>
