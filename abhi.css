@@ -1,0 +1,111 @@
+.body
+{
+    height: 100%;
+    width: 100%;
+    background: gray;
+}
+
+.box1
+{
+    height: 100%;
+    width: 50%;
+    background: rgb(84, 84, 136);
+    float: left;
+}
+.box2
+{
+    height: 100%;
+    width: 50%;
+    background: rgb(84, 84, 136);
+    float: left;
+}
+.box3
+{
+    height: 80%;
+    width: 60%;
+    background: cyan;
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 30px;
+}
+
+#but
+{
+    height: 40px;
+    width: 30%;
+    background: red;
+    color: white;
+    border: 3px solid rgb(102, 100, 100);
+    border-radius: 20px;
+    font-size: 20px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+    box-shadow: -2px -2px 15px 2px rgb(62, 37, 37) inset;
+}
+
+#boxt
+{
+    height: 40px;
+    width: 40%;
+    background: yellow;
+    border: 0px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    box-shadow: -2px -2px 15px 2px rgb(173, 173, 74) inset;
+}
+.print
+{
+    height: 350px;
+    width: 80%;
+    background: cyan;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    border: 0px solid black;
+    box-shadow: -2px -2px 15px 2px rgb(103, 70, 70) inset;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: -2px -2px 0px gray;
+    color: rgb(61, 113, 113);
+    font-weight: bold;
+    overflow: hidden;
+}
+
+img{
+    margin-top: 0px;
+}
+.footer
+{
+    height: 30px;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+   
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#cl
+{
+    height: 30px;
+    width: 80px;
+    background: red;
+    margin-left: 160px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3px;
+}
